@@ -1,0 +1,14 @@
+/* ======================= LAYOUT ======================= */
+.page-shell { max-width: var(--max-width); margin: 0 auto; padding: 2rem 1rem; } /* Centrale contentcontainer. */
+.site-header { display: flex; gap: 1rem; align-items: center; justify-content: space-between; padding: 1rem; border-bottom: 1px solid var(--color-border); } /* Headerlayout. */
+.brand { display: flex; gap: 0.75rem; align-items: center; text-decoration: none; color: inherit; } /* Websitebranding. */
+.brand-logo { width: 2rem; height: 2rem; } /* Formaat van website-logo. */
+.main-nav { display: flex; gap: 1rem; flex-wrap: wrap; } /* Hoofdnavigatie. */
+.site-footer { padding: 2rem 1rem; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; } /* Footerlayout. */
+.footer-nav { display: flex; gap: 1rem; flex-wrap: wrap; } /* Juridische navigatie. */
+.vorilo-credit { display: flex; align-items: center; gap: 0.5rem; } /* Powered by Vorilo-blok. */
+.vorilo-logo { width: 4rem; } /* Compact Vorilo-logo. */
+
+@media (max-width: 48rem) {
+    .site-header { align-items: flex-start; flex-direction: column; } /* Stapelt headeronderdelen op mobiel. */
+}

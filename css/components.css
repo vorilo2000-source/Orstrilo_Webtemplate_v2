@@ -1,0 +1,4 @@
+/* ======================= COMPONENTS ======================= */
+.button { display: inline-block; padding: 0.75rem 1rem; border: 0; border-radius: var(--radius); background: var(--color-primary); color: #fff; text-decoration: none; cursor: pointer; } /* Primaire knop. */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; } /* Responsieve card-grid. */
+.card, .content-panel, .auth-card { padding: 1.5rem; background: var(--color-surface); border-radius: var(--radius); } /* Gemeenschappelijke panelstijl. */

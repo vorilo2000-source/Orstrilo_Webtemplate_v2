@@ -1,0 +1,7 @@
+/* ======================= BASE ======================= */
+* { box-sizing: border-box; } /* Zorgt dat padding en borders binnen de opgegeven breedte vallen. */
+html { font-family: Arial, sans-serif; } /* Neutrale standaardfont. */
+body { margin: 0; background: var(--color-bg); color: var(--color-text); } /* Algemene paginastijl. */
+img { max-width: 100%; display: block; } /* Voorkomt dat afbeeldingen buiten hun container lopen. */
+a { color: var(--color-primary); } /* Algemene linkkleur. */
+input, button, select { font: inherit; } /* Formulierelementen gebruiken dezelfde typografie. */
